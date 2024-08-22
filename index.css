@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.navsec{
+    margin-top: 20px;
+    width: 100vw;
+    height: 8vw;
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbaratas{
+    width: 80%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 30px;
+    display: flex;
+   
+
+}
+.navcontent{
+    display: flex;
+    
+    
+}
+.section2{
+    background-image: url(/asset/topographic-contour-lines-map-seamless-pattern_1284-52862\ 4.png);
+    background-size: cover;
+}
+.header1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.contentisi ul li a{
+   list-style: none;
+    text-decoration: none;
+    
+}
+.login2{
+    text-decoration: none;
+    list-style: none;
+
+}
+.ullogin{
+    text-decoration: none;
+    list-style: none;
+}
+
