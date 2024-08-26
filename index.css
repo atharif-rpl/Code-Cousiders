@@ -1,54 +1,179 @@
 *{
+    padding: 0;
     margin: 0;
-    padding: 0
 }
-.navsec{
-    margin-top: 20px;
+
+.header{
     width: 100vw;
-    height: 8vw;
-    background-color: rgba(127, 255, 212, 0);
+    height: 8vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
 }
-.navbaratas{
+.nav{
+    margin-top: 20px;
     width: 80%;
     height: 100%;
-    background-color: aqua;
-    border-radius: 30px;
+    background-color: #ffff;
     display: flex;
-   
+    border-radius: 20px;
+    box-shadow: 0px 8px 0px #2ECAB3 ;
+}
+.gap-middle{
+width: 50%;
+height: 100%;
+display: flex;
+/* background-color: red; */
+}
+.header-logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 0 20px;
+    align-items: center;
+}
+.fotologo{
+    width: 30%;
+  
 
+   
 }
-.navcontent{
-    display: flex;
-    
-    
-}
-.section2{
-    background-image: url(/asset/topographic-contour-lines-map-seamless-pattern_1284-52862\ 4.png);
-    background-size: cover;
-}
-.header1{
-    width: 100vw;
+.header-content{
+    width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    
-}
-.contentisi ul li a{
-   list-style: none;
-    text-decoration: none;
-    
-}
-.login2{
-    text-decoration: none;
-    list-style: none;
+
 
 }
-.ullogin{
-    text-decoration: none;
+.ulawal {
+    display: flex;
+    align-items: bottom;
     list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  
+    
+}
+.ulawal li a {
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
 }
 
+.section2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/asset/topographic-contour-lines-map-seamless-pattern_1284-52862\ 4.png);
+    background-size:contain;
+
+}
+.masuk-btn{
+    background-color: #F26D0F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .login-btn {
+    border: #333 solid 2px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+  }
+  
+  .login-btn:hover, .masuk-btn:hover {
+    background-color: #444;
+  }
+  .section2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .assetku{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+  }
+  .pilihanku{
+    margin-top: 200px;
+    height: 70%;
+    width: 120%;
+   margin-left: 100px;
+  }
+  .gambarr{
+    margin-top: 50px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 30;
+    
+  }
+  .gambar22{
+    width: 60%;
+    height: 70%;
+    margin-right: 200px;
+  }
+  .circlebelakang{
+    width: 50%;
+    position: absolute;
+    padding-left: 900px;
+  }
+  .circlebelakangkecil{
+    width: 27%;
+    position: absolute;
+    padding-top:720px;
+   
+    
+  }
+  .studentku{
+    scale: 13%;
+    margin-left:-190px;
+  }
+  .studentku:hover{
+    scale: 18%;
+    rotate: 20%;
+    
+  }
+  .studentku11{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 520px;
+    z-index: 100;
+  }
+  
+
+
+
+@keyframes muter{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 50%;
+    }
+    75%{
+        background-position: 75%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
