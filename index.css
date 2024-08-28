@@ -108,15 +108,15 @@ display: flex;
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     
   }
   .pilihanku{
-    
+    margin-top: 9rem;
     height: 70%;
     width: 120%;
-   
+   z-index: 100;
   }
   .gambarr{
     margin-top: 50px;
@@ -137,21 +137,18 @@ display: flex;
   .circlebelakang{
     width: 50%;
     position: absolute;
-    
-
+    top: 0px;
   }
   .circlebelakangkecil{
     width: 27%;
-    position: absolute;
-    
-
-    
-   
-    
+    position: absolute; 
+    bottom: 0px;
+    left: 0px; 
   }
   .studentku{
     scale: 13%;
     margin-left:-190px;
+    
   }
   .studentku:hover{
     scale: 18%;
@@ -162,7 +159,8 @@ display: flex;
     position: absolute;
     margin-left: 560px;
     margin-top: 520px;
-    z-index: 100;
+    
+    z-index: 200;
   }
   
 
