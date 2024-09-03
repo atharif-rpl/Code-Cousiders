@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 10;
+    z-index: 110;
 }
 .nav{
     margin-top: 20px;
@@ -20,7 +20,7 @@
     display: flex;
     border-radius: 20px;
     box-shadow: 0px 8px 0px #2ECAB3 ;
-    z-index: 200;
+    z-index: 300;
 }
 .ulawal .nav-link {
   padding: 0 .5em .25em;
@@ -106,9 +106,17 @@ display: flex;
 .section2{
     width: 100vw;
     height: 100vh;
-    background-image: url(/asset/topographic-contour-lines-map-seamless-pattern_1284-52862\ 4.png);
+   
     background-size:contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
 
+}
+.backgrounddd{
+ width: 100vw;
+ height: 100vh;
+ position: fixed;
 }
 .masuk-btn{
     background-color: #F26D0F;
@@ -133,11 +141,7 @@ display: flex;
   .login-btn:hover, .masuk-btn:hover {
     background-color: #444;
   }
-  .section2{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-  }
+  
   .assetku{
     width: 50%;
     height: 100%;
@@ -196,9 +200,7 @@ display: flex;
   }
 
 <!--cobaa-->
-section {
-  padding: 100px 0;
-}
+
 
 .shadow3 {
   background-image: url("http://www.commixturesoft.com/img/shadow3.png");
@@ -242,11 +244,11 @@ h2 {
 }
 
 .justify-content-center {
-  -ms-flex-pack: center!important;
-  justify-content: center!important;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .justify-content-center {
-  -webkit-box-pack: center!important;
+  -webkit-box-pack: center;
   -ms-flex-pack: center!important;
   justify-content: center!important;
 }
@@ -307,19 +309,15 @@ a {
   animation: 1.5s linear 0s normal none infinite focuse;
 }
 
-----------------------
-.testimoni {
-  background-image: url(image2/line.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 125vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; Menjaga konten tetap di tengah secara horizontal */
-  /* justify-content: center; Menjaga konten tetap di tengah secara vertikal */
+
+.testimonii {
+  width: 100vw;
+  height: 100vh;
+  background-size:contain;
+  width: 100vw;
+  height: 100vh;
+  
+  
 }
 
 .box {
@@ -332,18 +330,14 @@ a {
 
 .hero-circle {
   width: 27%;
-  position: absolute; 
   top: 0px;
-  left: 0px; 
+  left: 0px;
+  
 }
 
 .teks-cont {
-  width: 100%;
-  height: 27%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
  
+  
 
 }
 
