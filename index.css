@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 110;
+    z-index: 11000;
 }
 .nav{
     margin-top: 20px;
@@ -35,7 +35,7 @@
     display: flex;
     border-radius: 20px;
     box-shadow: 0px 8px 0px #2ECAB3 ;
-    z-index: 300;
+    z-index: 8000;
 }
 .ulawal .nav-link {
   padding: 0 .5em .25em;
@@ -190,7 +190,7 @@ display: flex;
    padding-left: 40px;
    padding-top: 50px ;
    margin-left: 50px;
-   z-index: 500;
+   z-index: 2000;
 
   
     
@@ -198,21 +198,62 @@ display: flex;
     
   }
   .fotomira img{
-    height:  358px;
-    width: 288px;
+    height:  458px;
+    width: 388px;
+    
   }
-  .desci
-
-  .fitomir{
-    width: 60%;
-    height: 70%;
-    margin-right: 170px;
-    z-index: 100;
-    background-color: yellow;
+  .fotomira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .divv{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+  }
+  .desci{
+    width: 80%;
+    height: 20%;
+    background-color: #29cab2;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: end;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .paket{
+    font-family: montserrat;
+    color: black;
+  }
+  .kecill{
+    font-family: montserrat;
+    font-weight: 800;
+  }
+  .ii{
+    color: #F26D0F;
+  }
+  .kue{
+    display: flex;
+  }
+
+
+  .fotomir{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 20px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 40px 0px #29cab2;
 
   }
 
@@ -245,6 +286,10 @@ display: flex;
     color: #F26D0F;
     font-size: 100px;
     font-weight: 700;
+  }
+  .labb{
+    font-family: coolvetica;
+    color: #F26D0F;
   }
   .hatiku h1{
     font-family: coolvetica;
@@ -294,12 +339,14 @@ display: flex;
     width: 50%;
     position: absolute;
     top: 0px;
+    z-index: -1000;
   }
   .circlebelakangkecil{
     width: 27%;
     position: absolute; 
     bottom: 0px;
     left: 0px; 
+    z-index: -5000;
   }
   .studentku{
     scale: 13%;
